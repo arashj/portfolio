@@ -1,4 +1,4 @@
-﻿import type { Experience } from "@/content/profile";
+import type { Experience } from "@/content/profile";
 
 function formatDates(start?: string, end?: string) {
   if (!start && !end) return null;

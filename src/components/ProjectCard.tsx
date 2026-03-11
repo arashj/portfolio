@@ -1,4 +1,4 @@
-﻿import type { Project } from "@/content/profile";
+import type { Project } from "@/content/profile";
 import { Badge } from "@/components/Badge";
 
 export function ProjectCard({ project }: { project: Project }) {

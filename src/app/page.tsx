@@ -1,4 +1,4 @@
-﻿import { profile } from "@/content/profile";
+import { profile } from "@/content/profile";
 import { Navbar } from "@/components/Navbar";
 import { Section } from "@/components/Section";
 import { ProjectCard } from "@/components/ProjectCard";

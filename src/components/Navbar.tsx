@@ -1,4 +1,4 @@
-﻿import { profile } from "@/content/profile";
+import { profile } from "@/content/profile";
 
 export function Navbar() {
   const links = [

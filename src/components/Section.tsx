@@ -1,4 +1,4 @@
-﻿export function Section({
+export function Section({
   id,
   eyebrow,
   title,

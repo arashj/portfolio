@@ -1,4 +1,4 @@
-﻿# Portfolio Website (Next.js)
+# Portfolio Website (Next.js)
 
 Professional portfolio site powered by Next.js (App Router). All content lives in `src/content/profile.ts`.
 

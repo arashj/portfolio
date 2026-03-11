@@ -1,4 +1,4 @@
-﻿import type { Education } from "@/content/profile";
+import type { Education } from "@/content/profile";
 
 function formatDates(start?: string, end?: string) {
   if (!start && !end) return null;

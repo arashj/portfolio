@@ -1,4 +1,4 @@
-﻿export type Stat = { value: string; label: string };
+export type Stat = { value: string; label: string };
 
 export type Project = {
   slug: string;
