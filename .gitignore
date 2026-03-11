@@ -1,4 +1,4 @@
-﻿node_modules
+node_modules
 .next
 out
 .vercel
@@ -7,3 +7,4 @@ out
 .env
 .env.*
 .vercel
+deploy_tmp
