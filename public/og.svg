@@ -1,0 +1,43 @@
+﻿<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131f"/>
+      <stop offset="1" stop-color="#0b1c2c"/>
+    </linearGradient>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 120) rotate(62) scale(520 520)">
+      <stop stop-color="#ffe7a3" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffe7a3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 160) rotate(140) scale(560 560)">
+      <stop stop-color="#cbe7ff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#cbe7ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="c" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(660 560) rotate(-110) scale(560 560)">
+      <stop stop-color="#ffd0e6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffd0e6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#a)"/>
+  <rect width="1200" height="630" fill="url(#b)"/>
+  <rect width="1200" height="630" fill="url(#c)"/>
+
+  <g opacity="0.14">
+    <path d="M0 60H1200" stroke="#F2F6FF"/>
+    <path d="M0 130H1200" stroke="#F2F6FF"/>
+    <path d="M0 200H1200" stroke="#F2F6FF"/>
+    <path d="M0 270H1200" stroke="#F2F6FF"/>
+    <path d="M0 340H1200" stroke="#F2F6FF"/>
+    <path d="M0 410H1200" stroke="#F2F6FF"/>
+    <path d="M0 480H1200" stroke="#F2F6FF"/>
+    <path d="M0 550H1200" stroke="#F2F6FF"/>
+  </g>
+
+  <circle cx="140" cy="128" r="12" fill="#ffe7a3"/>
+  <circle cx="190" cy="128" r="12" fill="#ffd0e6"/>
+  <circle cx="240" cy="128" r="12" fill="#cbe7ff"/>
+
+  <text x="120" y="300" fill="#F2F6FF" font-family="serif" font-size="72" font-weight="700">Portfolio</text>
+  <text x="120" y="360" fill="#F2F6FF" fill-opacity="0.78" font-family="sans-serif" font-size="28">Update src/content/profile.ts</text>
+</svg>
