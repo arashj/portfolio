@@ -34,7 +34,7 @@ export type SkillGroup = { name: string; items: string[] };
 
 export const profile = {
   // Update this to your final domain (or your Vercel URL) once deployed.
-  siteUrl: "https://portfolio-arashjs-projects.vercel.app",
+  siteUrl: "https://arashjamshidi.vercel.app",
 
   name: "Arash Jamshidi",
   headline: "Full-Stack Web Developer",
@@ -60,9 +60,9 @@ export const profile = {
   ] satisfies Stat[],
 
   about: [
-    "Iâ€™m a full-stack web developer based in Montreal. I enjoy building responsive, accessible UIs and reliable backend services that ship cleanly and scale.",
-    "Iâ€™ve worked across modern React stacks (React, Next.js, Redux/RTK) and backend systems (Spring Boot, PostgreSQL), with a focus on performance, maintainability, and clear collaboration.",
-    "Iâ€™m bilingual (French and English) and Iâ€™m always learning new tools and best practices to deliver better software."
+    "IÃ¢â‚¬â„¢m a full-stack web developer based in Montreal. I enjoy building responsive, accessible UIs and reliable backend services that ship cleanly and scale.",
+    "IÃ¢â‚¬â„¢ve worked across modern React stacks (React, Next.js, Redux/RTK) and backend systems (Spring Boot, PostgreSQL), with a focus on performance, maintainability, and clear collaboration.",
+    "IÃ¢â‚¬â„¢m bilingual (French and English) and IÃ¢â‚¬â„¢m always learning new tools and best practices to deliver better software."
   ],
 
   primaryStack: "React, Next.js, Redux/RTK, TypeScript, JavaScript",
@@ -136,7 +136,7 @@ export const profile = {
       ]
     },
     {
-      company: "University of Quebec (Ã‰TS)",
+      company: "University of Quebec (Ãƒâ€°TS)",
       role: "Software Developer",
       start: "2022",
       end: "2024",
@@ -163,8 +163,8 @@ export const profile = {
 
   education: [
     {
-      school: "University of Quebec (Ã‰TS)",
-      program: "Masterâ€™s Degree, Electrical and Computer Engineering",
+      school: "University of Quebec (Ãƒâ€°TS)",
+      program: "MasterÃ¢â‚¬â„¢s Degree, Electrical and Computer Engineering",
       start: "2022",
       end: "2024",
       details: "Graduate studies in electrical and computer engineering in Montreal.",
@@ -172,12 +172,12 @@ export const profile = {
     },
     {
       school: "Sadjad University",
-      program: "Bachelorâ€™s Degree, Telecommunication-Electrical Engineering",
+      program: "BachelorÃ¢â‚¬â„¢s Degree, Telecommunication-Electrical Engineering",
       details: "Undergraduate studies in telecommunication/electrical engineering.",
       highlights: ["Iran"]
     }
   ] satisfies Education[],
 
   contactBlurb:
-    "If youâ€™re hiring or want to collaborate on a project, feel free to reach out. Iâ€™m happy to share code samples, demos, or a quick walkthrough of recent work."
+    "If youÃ¢â‚¬â„¢re hiring or want to collaborate on a project, feel free to reach out. IÃ¢â‚¬â„¢m happy to share code samples, demos, or a quick walkthrough of recent work."
 };
