@@ -9,3 +9,4 @@ out
 .vercel
 deploy_tmp
 .npm-cache
+!.env.example

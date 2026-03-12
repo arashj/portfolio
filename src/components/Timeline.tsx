@@ -1,11 +1,19 @@
 import { ReactNode } from "react";
 
+function DotIcon() {
+  return (
+    <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+      <circle cx="6" cy="6" r="3" fill="currentColor" />
+    </svg>
+  );
+}
+
 export function Timeline({ title, children }: { title: string; children: ReactNode }) {
   return (
     <section className="timeline">
       <div className="title-wrapper">
         <div className="icon-box" aria-hidden="true">
-          <span>•</span>
+          <DotIcon />
         </div>
         <h3 className="h3">{title}</h3>
       </div>

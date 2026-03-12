@@ -1,11 +1,21 @@
 "use client";
 
 import { useMemo } from "react";
-import { profile } from "@/content/profile";
+import type { Profile } from "@/content/types";
 
 type Props = {
   expanded: boolean;
   onToggle: () => void;
+  profile: Profile;
+  labels: {
+    showContacts: string;
+    hideContacts: string;
+    email: string;
+    location: string;
+    current: string;
+    resume: string;
+    downloadPdf: string;
+  };
 };
 
 function prettyDates(start?: string, end?: string) {
@@ -15,28 +25,36 @@ function prettyDates(start?: string, end?: string) {
   return start ?? end ?? null;
 }
 
-export function VCardSidebar({ expanded, onToggle }: Props) {
+function DotIcon() {
+  return (
+    <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+      <circle cx="6" cy="6" r="3" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function VCardSidebar({ expanded, onToggle, profile, labels }: Props) {
   const contacts = useMemo(() => {
     const items: Array<{ label: string; value: string; href?: string }> = [];
 
     if (profile.contact.email) {
-      items.push({ label: "Email", value: profile.contact.email, href: `mailto:${profile.contact.email}` });
+      items.push({ label: labels.email, value: profile.contact.email, href: `mailto:${profile.contact.email}` });
     }
 
-    items.push({ label: "Location", value: profile.location });
+    items.push({ label: labels.location, value: profile.location });
 
     const exp = profile.experience[0];
     const dates = exp ? prettyDates(exp.start, exp.end) : null;
     if (exp && dates) {
-      items.push({ label: "Current", value: `${exp.role} @ ${exp.company} (${dates})` });
+      items.push({ label: labels.current, value: `${exp.role} @ ${exp.company} (${dates})` });
     }
 
     if (profile.contact.resumeUrl) {
-      items.push({ label: "Resume", value: "Download PDF", href: profile.contact.resumeUrl });
+      items.push({ label: labels.resume, value: labels.downloadPdf, href: profile.contact.resumeUrl });
     }
 
     return items;
-  }, []);
+  }, [labels, profile]);
 
   return (
     <aside className={expanded ? "sidebar active" : "sidebar"} data-sidebar>
@@ -53,7 +71,7 @@ export function VCardSidebar({ expanded, onToggle }: Props) {
         </div>
 
         <button className="info_more-btn" onClick={onToggle} type="button" aria-expanded={expanded}>
-          <span>{expanded ? "Hide" : "Show"} Contacts</span>
+          <span>{expanded ? labels.hideContacts : labels.showContacts}</span>
         </button>
       </div>
 
@@ -62,10 +80,9 @@ export function VCardSidebar({ expanded, onToggle }: Props) {
 
         <ul className="contacts-list">
           {contacts.map((c) => (
-            <li className="contact-item" key={`${c.label}-${c.value}`}
-            >
+            <li className="contact-item" key={`${c.label}-${c.value}`}>
               <div className="icon-box" aria-hidden="true">
-                <span>•</span>
+                <DotIcon />
               </div>
 
               <div className="contact-info">
