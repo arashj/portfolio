@@ -8,3 +8,4 @@ out
 .env.*
 .vercel
 deploy_tmp
+.npm-cache
