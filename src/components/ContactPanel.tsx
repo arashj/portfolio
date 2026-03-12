@@ -44,12 +44,13 @@ export function ContactPanel({
   const canSubmit = useMemo(() => {
     return (
       status !== "sending" &&
+      accessKey.trim().length > 0 &&
       form.fullname.trim().length > 1 &&
       form.email.trim().length > 3 &&
       form.subject.trim().length > 2 &&
       form.message.trim().length > 5
     );
-  }, [form, status]);
+  }, [accessKey, form, status]);
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -173,7 +174,6 @@ export function ContactPanel({
             <span>{status === "sending" ? text.sending : text.send}</span>
           </button>
 
-          {!accessKey ? <p style={{ marginTop: 12, color: "var(--light-gray-70)" }}>{text.notConfigured}</p> : null}
 
           {status === "error" ? <p style={{ marginTop: 12, color: "#ff6b6b" }}>{text.error}</p> : null}
         </form>
