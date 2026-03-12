@@ -34,8 +34,8 @@ export const uiText: Record<
   }
 > = {
   fr: {
-    nav: { about: "A propos", resume: "CV", portfolio: "Portfolio", contact: "Contact" },
-    resume: { experience: "Experience", education: "Formation", skills: "Competences" },
+    nav: { about: "À propos", resume: "CV", portfolio: "Portfolio", contact: "Contact" },
+    resume: { experience: "Expérience", education: "Formation", skills: "Compétences" },
     about: {
       whatIWorkOn: "Ce sur quoi je travaille",
       snapshot: "En bref",
@@ -51,13 +51,13 @@ export const uiText: Record<
       message: "Votre message",
       send: "Envoyer",
       sending: "Envoi...",
-      sentTitle: "Message envoye",
-      sentBody: "Merci pour votre message. Je vous repondrai rapidement.",
+      sentTitle: "Message envoyé",
+      sentBody: "Merci pour votre message. Je vous répondrai rapidement.",
       sendAnother: "Envoyer un autre",
       linkedin: "LinkedIn",
       notConfigured:
-        "Le formulaire n'est pas configure. Ajoutez NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY dans les variables d'environnement Vercel.",
-      error: "Une erreur s'est produite. Reessayez ou contactez-moi sur LinkedIn."
+        "Le formulaire n'est pas configuré. Ajoutez NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY dans les variables d'environnement Vercel.",
+      error: "Une erreur s'est produite. Réessayez ou contactez-moi sur LinkedIn."
     },
     sidebar: {
       showContacts: "Afficher les contacts",
@@ -66,7 +66,7 @@ export const uiText: Record<
       location: "Localisation",
       current: "Actuel",
       resume: "CV",
-      downloadPdf: "Telecharger PDF"
+      downloadPdf: "Télécharger PDF"
     }
   },
   en: {

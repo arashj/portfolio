@@ -5,15 +5,15 @@ export const profileFr: Profile = {
   siteUrl,
 
   name: "Arash Jamshidi",
-  headline: "Developpeur Full Stack Web",
-  location: "Montreal, QC, Canada",
+  headline: "Développeur Full-Stack Web",
+  location: "Montréal, QC, Canada",
 
   summary:
-    "Developpeur full stack avec plus de 5 ans d'experience en developpement de logiciels interactifs et optimises, axes sur l'experience utilisateur. A l'aise avec React et les outils frontend modernes, ainsi qu'avec les services backend et les API.",
+    "Développeur full stack avec plus de 5 ans d'expérience en développement de logiciels interactifs et optimisés, axés sur l'expérience utilisateur. À l'aise avec React et les outils frontend modernes, ainsi qu'avec les services backend et les API.",
 
   avatar: {
     src: "/avatar-placeholder.svg",
-    alt: "Portrait de Arash"
+    alt: "Portrait d'Arash"
   },
 
   contact: {
@@ -28,60 +28,60 @@ export const profileFr: Profile = {
   },
 
   about: {
-    title: "A propos",
+    title: "À propos",
     paragraphs: [
-      "Je suis developpeur full stack base a Montreal. J'aime construire des produits rapides, lisibles et faciles a maintenir.",
-      "Cote frontend, je travaille avec React/Next.js et des interfaces riches en etat (Redux/RTK, RTK Query). Cote backend, je livre des API et des services avec Spring Boot + PostgreSQL, en restant attentif a l'authentification, au caching et a la performance.",
-      "Ce que j'optimise: une architecture claire, des performances mesurables et une interface qui reste simple a faire evoluer. Je suis bilingue (francais/anglais)."
+      "Je suis développeur full stack basé à Montréal. J'aime construire des produits rapides, lisibles et faciles à maintenir.",
+      "Côté frontend, je travaille avec React/Next.js et des interfaces riches en état (Redux/RTK, RTK Query). Côté backend, je livre des API et des services avec Spring Boot + PostgreSQL, en restant attentif à l'authentification, au caching et à la performance.",
+      "Ce que j'optimise: une architecture claire, des performances mesurables et une interface qui reste simple à faire évoluer. Je suis bilingue (français/anglais)."
     ]
   },
 
   experience: [
     {
       company: "EnerZam",
-      role: "Developpeur Full Stack",
+      role: "Développeur Full-Stack",
       start: "2025",
       bullets: [
-        "Refonte d'une application legacy avec React 19 + Redux et RTK Query pour rendre le frontend plus evolutif et maintenable.",
-        "Conception et maintenance de services backend avec Spring Boot + PostgreSQL, en mettant l'accent sur la fiabilite et la performance.",
-        "Mise en place d'une authentification JWT, de strategies de caching et support de la mesure/verif en temps reel avec supervision 24/7."
+        "Refonte d'une application legacy avec React 19 + Redux et RTK Query pour rendre le frontend plus évolutif et maintenable.",
+        "Conception et maintenance de services backend avec Spring Boot + PostgreSQL, en mettant l'accent sur la fiabilité et la performance.",
+        "Mise en place d'une authentification JWT, de stratégies de caching et support de la mesure/vérification en temps réel avec supervision 24/7."
       ]
     },
     {
-      company: "Universite du Quebec (ETS)",
-      role: "Developpeur logiciel",
+      company: "Université du Québec (ÉTS)",
+      role: "Développeur logiciel",
       start: "2022",
       end: "2024",
       bullets: [
-        "Developpement d'applications responsives, centrees utilisateur, avec des iterations UI pour ameliorer l'adoption.",
-        "Collaboration UI/UX sur des tests A/B pour valider les changements et ameliorer l'utilisabilite.",
-        "Optimisation du traitement des requetes, reduction du temps de reponse d'environ 500ms a 350ms via des ameliorations d'algorithmes et de gestion des donnees."
+        "Développement d'applications responsives, centrées utilisateur, avec des itérations UI pour améliorer l'adoption.",
+        "Collaboration UI/UX sur des tests A/B pour valider les changements et améliorer l'utilisabilité.",
+        "Optimisation du traitement des requêtes, réduction du temps de réponse d'environ 500ms à 350ms via des améliorations d'algorithmes et de gestion des données."
       ]
     },
     {
       company: "DayaTeca",
-      role: "Developpeur web",
+      role: "Développeur web",
       start: "2013",
       end: "2018",
       bullets: [
-        "Construction et tests de plus de 40 composants frontend reutilisables, reduisant le temps de developpement futur d'environ 30%.",
-        "Amelioration de la qualite de livraison et reduction du temps de debogage via une meilleure structure de composants et de la documentation.",
-        "Renforcement de la fiabilite via des pratiques de tests (TDD), reduisant les defauts apres livraison et augmentant la satisfaction utilisateur."
+        "Construction et tests de plus de 40 composants frontend réutilisables, réduisant le temps de développement futur d'environ 30%.",
+        "Amélioration de la qualité de livraison et réduction du temps de débogage via une meilleure structure de composants et de la documentation.",
+        "Renforcement de la fiabilité via des pratiques de tests (TDD), réduisant les défauts après livraison et augmentant la satisfaction utilisateur."
       ]
     }
   ],
 
   education: [
     {
-      school: "Universite du Quebec (ETS)",
-      program: "Maitrise, Genie electrique et genie informatique",
+      school: "Université du Québec (ÉTS)",
+      program: "Maîtrise, Génie électrique et génie informatique",
       start: "2022",
       end: "2024",
       bullets: ["Bourse: Ubiquitous Haptics (interne)"]
     },
     {
-      school: "Universite Sadjad",
-      program: "Baccalaureat, Telecommunications et genie electrique",
+      school: "Université Sadjad",
+      program: "Baccalauréat, Télécommunications et génie électrique",
       bullets: ["Iran"]
     }
   ],

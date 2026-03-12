@@ -77,8 +77,8 @@ export default function HomePage() {
   const serviceDescriptions = useMemo(() => {
     if (locale === "fr") {
       return {
-        frontend: "React, Next.js, Redux/RTK, TypeScript. UI rapide et responsive avec une structure de composants claire.",
-        backend: "Spring Boot, PostgreSQL, MongoDB, REST/GraphQL. API securisees, caching, et services faciles a maintenir."
+        frontend: "React, Next.js, Redux/RTK, TypeScript. UI rapide, responsive, avec une structure de composants claire.",
+        backend: "Spring Boot, PostgreSQL, MongoDB, REST/GraphQL. API securisees, mise en cache, et services faciles a maintenir."
       };
     }
 
@@ -160,7 +160,7 @@ export default function HomePage() {
                 key={`${e.company}-${e.role}-${e.start}`}
                 heading={e.role}
                 subheading={e.company}
-                dates={formatDates(e.start, e.end, locale === "fr" ? "Present" : "Present")}
+                dates={formatDates(e.start, e.end, locale === "fr" ? "Présent" : "Present")}
               >
                 <ul>
                   {e.bullets.map((b) => (
