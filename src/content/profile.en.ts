@@ -19,7 +19,7 @@ export const profileEn: Profile = {
   contact: {
     // Add an email here if you want it visible publicly.
     email: "",
-    resumeUrl: "/resume.pdf"
+    resumeUrl: "/resume-en.pdf"
   },
 
   links: {
