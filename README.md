@@ -62,3 +62,4 @@ In Vercel:
 
 - This project does not scrape LinkedIn automatically.
 - GitHub repos: add your project links manually (keeps the site deterministic and privacy-friendly).
+- test
