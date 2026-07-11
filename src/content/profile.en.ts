@@ -41,6 +41,8 @@ export const profileEn: Profile = {
       company: "EnerZam",
       role: "Full-Stack Developer",
       start: "2025",
+      impact: "Key impact: scalable frontend rebuild and reliable backend with secure authentication and 24/7 monitoring",
+      tags: ["React 19", "Redux/RTK Query", "Spring Boot", "PostgreSQL", "JWT"],
       bullets: [
         "Rebuilt a legacy application using React 19 + Redux and RTK Query to make the frontend more scalable and maintainable.",
         "Designed and maintained backend services with Spring Boot + PostgreSQL, focusing on reliability and performance.",
@@ -52,6 +54,8 @@ export const profileEn: Profile = {
       role: "Software Developer",
       start: "2022",
       end: "2024",
+      impact: "Key impact: reduced response time from roughly 500ms to 350ms (~30%)",
+      tags: ["UI/UX", "A/B Testing", "Performance"],
       bullets: [
         "Built responsive, user-centered applications and improved engagement through iterative UI delivery.",
         "Worked with UI/UX on A/B tests to validate changes and improve usability.",
@@ -63,6 +67,8 @@ export const profileEn: Profile = {
       role: "Web Developer",
       start: "2013",
       end: "2018",
+      impact: "Key impact: 40+ reusable components, ~30% reduction in future development time",
+      tags: ["Frontend", "TDD", "Component Architecture"],
       bullets: [
         "Built and tested 40+ reusable frontend components, cutting future development time by ~30%.",
         "Improved delivery quality and reduced debugging time through better component structure and documentation.",

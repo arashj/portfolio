@@ -10,3 +10,4 @@ out
 deploy_tmp
 .npm-cache
 !.env.example
+tsconfig.tsbuildinfo

@@ -8,6 +8,7 @@ export const sharedProjects: Project[] = [
     title: "Portfolio (This Site)",
     description:
       "A fast, responsive portfolio built in Next.js with an interactive vCard layout, SEO basics (sitemap/robots/OG), and a contact form. Designed to showcase projects and experience clearly.",
+    tags: ["Next.js", "React", "SEO"],
     links: {
       demo: siteUrl,
       source: "https://github.com/arashj/portfolio"
@@ -18,6 +19,7 @@ export const sharedProjects: Project[] = [
     title: "Task Management Web App",
     description:
       "A task management application to track deadlines, add/delete/modify tasks, assign dates, and add descriptions.",
+    tags: ["React", "State Management"],
     links: { source: "https://github.com/arashj/Task-Management-Application" }
   },
   {
@@ -25,6 +27,7 @@ export const sharedProjects: Project[] = [
     title: "Place Finder Web App",
     description:
       "Helps users save places to visit. Locations are sorted by geographic proximity and the UI uses animations to stay engaging.",
+    tags: ["React", "Geolocation", "Animations"],
     links: { source: "https://github.com/arashj/PlaceFinder" }
   },
   {
@@ -32,12 +35,14 @@ export const sharedProjects: Project[] = [
     title: "Food Ordering App",
     description:
       "A React app for browsing foods, adding items to a cart, and checking out. Uses context providers for cart and progress state.",
+    tags: ["React", "Context API"],
     links: { source: "https://github.com/arashj/Food-order-app" }
   },
   {
     slug: "todo",
     title: "Todo Web App",
     description: "A simple todo app focused on clean component patterns and practical state handling.",
+    tags: ["React", "Component Design"],
     links: { source: "https://github.com/arashj/Todo-web-app" }
   }
 ];

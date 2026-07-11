@@ -41,6 +41,8 @@ export const profileFr: Profile = {
       company: "EnerZam",
       role: "Développeur Full-Stack",
       start: "2025",
+      impact: "Impact clé : refonte frontend évolutive et backend fiable avec authentification sécurisée et supervision 24/7",
+      tags: ["React 19", "Redux/RTK Query", "Spring Boot", "PostgreSQL", "JWT"],
       bullets: [
         "Refonte d'une application legacy avec React 19 + Redux et RTK Query pour rendre le frontend plus évolutif et maintenable.",
         "Conception et maintenance de services backend avec Spring Boot + PostgreSQL, en mettant l'accent sur la fiabilité et la performance.",
@@ -52,6 +54,8 @@ export const profileFr: Profile = {
       role: "Développeur logiciel",
       start: "2022",
       end: "2024",
+      impact: "Impact clé : réduction du temps de réponse d'environ 500ms à 350ms (~30%)",
+      tags: ["UI/UX", "Tests A/B", "Performance"],
       bullets: [
         "Développement d'applications responsives, centrées utilisateur, avec des itérations UI pour améliorer l'adoption.",
         "Collaboration UI/UX sur des tests A/B pour valider les changements et améliorer l'utilisabilité.",
@@ -63,6 +67,8 @@ export const profileFr: Profile = {
       role: "Développeur web",
       start: "2013",
       end: "2018",
+      impact: "Impact clé : 40+ composants réutilisables, ~30% de réduction du temps de développement futur",
+      tags: ["Frontend", "TDD", "Architecture de composants"],
       bullets: [
         "Construction et tests de plus de 40 composants frontend réutilisables, réduisant le temps de développement futur d'environ 30%.",
         "Amélioration de la qualité de livraison et réduction du temps de débogage via une meilleure structure de composants et de la documentation.",

@@ -7,6 +7,7 @@ export type Project = {
   slug: string;
   title: string;
   description: string;
+  tags?: string[];
   links: {
     source?: string;
     demo?: string;
@@ -19,6 +20,8 @@ export type Experience = {
   start?: string;
   end?: string;
   bullets: string[];
+  impact?: string;
+  tags?: string[];
 };
 
 export type Education = {
